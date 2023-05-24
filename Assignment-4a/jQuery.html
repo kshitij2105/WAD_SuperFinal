@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Mobile Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+        <div data-role="header" data-theme="b">
+            <h1>REALME</h1>
+        </div>
+
+        <div data-role="navbar" data-grid="c">
+            <ul>
+                <li><a href="#home" class="ui-btn-active">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#login">Login | Register</a></li>
+            </ul>
+        </div>
+
+        <div data-role="content">
+            <center><p style="font-size: 50px;">Welcome to Realme STORE........</p></center>
+            <img src="./launch.jpg" alt="" height="600px" width="100%">
+            
+
+        </div>
+        
+        
+        <div data-role="footer">
+            <h4>&copy; xiaomi electronics | Kshitij Bhalerao</h4>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div data-role="page" id="about">
+        <div data-role="header" data-theme="b">
+            <h1>About Us</h1>
+        </div>
+
+        <img src="./xiaomi_banner3-1.png" alt="Banner" width="100%">
+        <div data-role="content">
+            <p style="font-size: 40px;">We provide you a wide range of electronic devices.</p>
+            <p>
+                <ol style="font-size: 30px;">
+                    <li>Smart Watches</li>
+                    <li>Smart phones</li>
+                    <li>TV</li>
+                    <li>Headphones</li>
+                    <li>Laptops</li>
+                </ol>
+            </p>
+                
+            <a href="#home" data-role="button" style="background-color: black; color: white;">Back to Home</a>
+        </div>
+        <div data-role="footer">
+            <h4>&copy; Realme electronics | Kshitij Bhalerao</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="products">
+        <div data-role="header" data-theme="b">
+            <h1>Products</h1>
+        </div>
+
+        <div data-role="content">
+            <center>
+            <div class="rows">
+                <div>
+                    <center><h2>Smart Phones</h2></center>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fphonesep.com%2Fwp-content%2Fuploads%2F2020%2F03%2F1012952578-1.jpg&f=1&nofb=1&ipt=33123018df3d77030cd8b83f87d4a8dbf9ea71c69d8f55be5f8b821359018076&ipo=images" alt="" style="margin: 2px 20px;">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmanilashaker.com%2Fwp-content%2Fuploads%2F2020%2F09%2FRealme_X7_Pro.jpg&f=1&nofb=1&ipt=096dc1ba7218b24e3be08d62a35c74f7233d42a2e4a6d64eb54886a914678fee&ipo=images" alt="" style="margin: 2px 20px;">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sotophone.com%2Fimages%2Fmobile%2Frealme-x-pro.jpg&f=1&nofb=1&ipt=f3284615367f464867745295dfb69c9224074c405797a0db9df6956ebd10107d&ipo=images" alt="" style="margin: 2px 20px;">
+                    
+                </div>
+            </div>
+
+            <div class="rows" style="margin-top: 100px;">
+                <div>
+                    <center><h2>Smart Watches</h2></center>
+                    <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1646731200.255354.jpg" alt="" width="30%" style="margin: 2px 20px;">
+                    <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1663670543.23075675.jpg?width=400&height=400" alt="" width="30%" style="margin: 2px 20px;">
+                    <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1644208569.07921361.png?width=400&height=400" alt="" width="30%" style="margin: 2px 20px;">
+                </div>
+                    
+            </div>
+
+        </div>
+       </center>
+        <a href="#home" data-role="button" style="background-color: black; color: white;">Back to Home</a>
+
+        <div data-role="footer">
+            <h4>&copy; xiaomi electronics | Kshitij Bhalerao</h4>
+        </div>
+
+    </div>
+
+        </div>
+        
+    <!-- Login Page -->
+    <div data-role="page" id="login">
+        <div data-role="header" data-theme="b">
+            <h1>Login|Register</h1>
+        </div>
+        <div data-role="content">
+            <center><p style="font-size: 30px;">Register</p></center>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text">
+                <label for="phone">Phone number</label>
+                <input type="number">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="password">Password</label>
+                <input type="password">
+                <button style="background-color: rgb(98, 97, 97); color: rgb(249, 248, 255);">Submit</button>
+            </form>
+            <a href="#home" data-role="button" style="background-color: black; color: white;">Back to Home</a>
+        </div>
+        <div data-role="footer">
+            <h4>&copy; Realme electronics | Kshitij Bhalerao</h4>
+        </div>
+    </div>
+</body>
+</html>
